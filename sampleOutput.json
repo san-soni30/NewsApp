@@ -1,0 +1,71 @@
+{
+"status": "ok",
+"totalResults": 5,
+"articles": [
+{
+"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": "BBC News",
+"title": "Larne: Man speaks of fear during rioting at NI leisure centre",
+"description": "Masked youths attacked a leisure centre and set it on fire as violence spread to other towns in Northern Ireland.",
+"url": "https://www.bbc.co.uk/news/articles/c5y2n92zpypo",
+"urlToImage": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/b851/live/4071bc70-4765-11f0-bbaa-4bc03e0665b7.jpg",
+"publishedAt": "2025-06-12T11:07:22.5362597Z",
+"content": "The PSNI said more officers were injured and six further arrests were made during the third consecutive night of disorder.\r\nBallymena\r\nOfficers were attacked with petrol bombs, heavy masonry, bricks,… [+1072 chars]"
+},
+{
+"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": "BBC News",
+"title": "Fredi Rivero: Three teenage girls admit manslaughter of man, 75",
+"description": "Fredi Rivero, 75, was pushed, shoved, kicked and punched in a group attack in north London.",
+"url": "https://www.bbc.co.uk/news/articles/cj3j4v1g314o",
+"urlToImage": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/d666/live/1cc84990-4771-11f0-bdd6-438c9d4f20a6.jpg",
+"publishedAt": "2025-06-12T10:37:26.0510162Z",
+"content": "Three teenage girls have pleaded guilty at the Old Bailey to the manslaughter of a 75-year-old man who died after a street attack that was filmed on a mobile phone.\r\nFredi Rivero was set upon in Isli… [+485 chars]"
+},
+{
+"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": "BBC News",
+"title": "What we know so far after Air India flight from Ahmedabad to London Gatwick crashes",
+"description": "More than 200 people were on board the flight to London Gatwick when it crashed shortly after take-off.",
+"url": "https://www.bbc.co.uk/news/articles/c5y5nq170z4o",
+"urlToImage": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/d678/live/0e7093d0-4775-11f0-84b6-6bf0f66205f1.jpg",
+"publishedAt": "2025-06-12T10:37:22.8955476Z",
+"content": "The passenger plane crashed on departure from Ahmedabad.\r\nAccording to flight tracking website FlightRadar24, the signal from the aircraft was lost \"less than a minute after take-off\".\r\nFlight tracki… [+745 chars]"
+},
+{
+"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": "BBC News",
+"title": "David Walliams Nazi salute on Would I Lie To You 'unacceptable', BBC says",
+"description": "The children's author and comedian made the gestures during a recording of Would I Lie To You?",
+"url": "https://www.bbc.co.uk/news/articles/cvg59q1xgv8o",
+"urlToImage": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/30d2/live/4bcf8460-4767-11f0-9471-e380f647874e.jpg",
+"publishedAt": "2025-06-12T09:22:25.4262615Z",
+"content": "BBC News has asked representatives for Walliams for comment.\r\nThe former Britain's Got Talent judge was on the panel for the BBC One show's Christmas special, which was recorded at Pinewood Studios o… [+2649 chars]"
+},
+{
+"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": "BBC News",
+"title": "These touts made millions - and claimed staff at big ticketing firms helped",
+"description": "The touts alleged staff at resale sites Ticketmaster once owned helped them trade in bulk, the BBC reveals.",
+"url": "https://www.bbc.co.uk/news/articles/ce3vrw4v3q2o",
+"urlToImage": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/a106/live/9c8f70c0-46b0-11f0-84b6-6bf0f66205f1.jpg",
+"publishedAt": "2025-06-12T05:37:27.519154Z",
+"content": "When a judge dismissed an appeal by prolific ticket tout Peter Hunter and his husband and accomplice David Smith against their landmark conviction for fraud, he sounded an alarm.\r\nThe evidence, he sa… [+1816 chars]"
+}
+]
+}

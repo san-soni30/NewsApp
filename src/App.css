@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+.nav-link-custom {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.nav-link-custom:hover {
+  color: black;
+}
+
+.name-link-custom{
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.name-link-custom:hover{
+  color: white;
+}
+
+.dropdown-menu {
+  background-color: #dc3545;
+  border: none;
+  border-radius: 10px;
+}
+
+.dropdown-menu .nav-link {
+  color: white !important;
+  padding: 10px 20px;
+}
+
+.dropdown-menu .nav-link:hover {
+  background-color: #a71d2a;
+  color: white !important;
+}
