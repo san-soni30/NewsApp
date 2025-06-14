@@ -8,8 +8,8 @@ export class Navbar extends Component {
          <div>
             <nav className="navbar navbar-expand-lg  bg-danger">
                <div className="container-fluid">
-                  <Link className="navbar-brand d-flex align-items-center" to="/"><img src="logo.png" alt="Logo" width="50" height="40" className="d-inline-block align-text-top" />
-                     <span className="ms-2 fs-2 fw-bold name-link-custom ">NationalNews</span></Link>
+                  <Link className="navbar-brand d-flex align-items-center" to="/"><img src="logo2.png" alt="Logo" width="50" height="40" className="d-inline-block align-text-top" />
+                     <span className="ms-2 fs-2 fw-bold name-link-custom ">NeoNews</span></Link>
                   <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                      <span className="navbar-toggler-icon"></span>
                   </button>

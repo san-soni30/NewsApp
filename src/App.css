@@ -32,6 +32,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -46,12 +47,12 @@
   color: black;
 }
 
-.name-link-custom{
+.name-link-custom {
   color: black;
   transition: color 0.3s ease;
 }
 
-.name-link-custom:hover{
+.name-link-custom:hover {
   color: white;
 }
 
@@ -69,4 +70,50 @@
 .dropdown-menu .nav-link:hover {
   background-color: #a71d2a;
   color: white !important;
+}
+
+.section-heading {
+  font-weight: 700;
+  color: black;
+}
+
+.icon-box {
+  background: #fff;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.4s ease;
+  border: 2px solid rgba(220, 53, 69, 0.5); /* red border */
+}
+
+.icon-box:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  border-color: grey; /* lighter red on hover */
+}
+
+.icon-box i {
+  font-size: 3rem;
+  color: rgba(220, 53, 69, 0.5);
+  margin-bottom: 15px;
+}
+
+.mission-box {
+  background: linear-gradient(135deg, #ff4d4d, #e60000);
+  color: #fff;
+  border-radius: 15px;
+  padding: 50px 40px;
+  margin-top: 50px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  border: 2px solid black; 
+  transition: 0.8s ease;
+}
+.mission-box:hover {
+   transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+   border-color: grey;
+} 
+
+p, h5 {
+  color: black;
 }

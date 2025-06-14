@@ -3,7 +3,7 @@ import './App.css';
 import React, { Component } from 'react';
 import News from './components/News';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
+import About from './components/About';
 export default class App extends Component {
   str = 'Sans';
   size=10;
@@ -15,6 +15,7 @@ export default class App extends Component {
           <div className="container">
             <Routes>
             <Route exact path="/" element={<News key="general" pageSize={this.size} country="us" category="general" />} />
+            <Route exact path="/about" element={<About/>} />
             <Route exact path="/business" element={<News key="business" pageSize={this.size} country="us" category="business" />} />
             <Route exact path="/entertainment" element={<News key="entertainment" pageSize={this.size} country="us" category="entertainment" />} />
             <Route exact path="/health" element={<News key="health" pageSize={this.size} country="us" category="health" />} />
