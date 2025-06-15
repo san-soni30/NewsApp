@@ -21,11 +21,11 @@ export class Navbar extends Component {
                         <li className="nav-item">
                            <Link className="nav-link nav-link-custom fs-5" to="/about">About</Link>
                         </li>
-                        <li class="nav-item dropdown">
-                           <Link class="nav-link nav-link-custom  dropdown-toggle fs-5 fc-" to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <li className="nav-item dropdown">
+                           <Link className="nav-link nav-link-custom  dropdown-toggle fs-5 fc-" to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Categories
                            </Link>
-                           <ul class="dropdown-menu">
+                           <ul className="dropdown-menu">
                               <li className="nav-item">
                                  <Link className="nav-link nav-link-custom fs-5" to="/business">Business</Link>
                               </li>
