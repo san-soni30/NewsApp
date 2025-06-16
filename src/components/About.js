@@ -55,7 +55,9 @@ const About = (props) => {
             <div className="icon-box text-center">
               <i className="bi bi-phone"></i>
               <h5>User-Friendly Interface</h5>
-              <p>Our intuitive design ensures a smooth reading experience on any device.</p>
+              <p>Our intuitive design ensures a smooth reading experience on any device.
+                
+              </p>
             </div>
           </div>
           <div className="col-md-4">
