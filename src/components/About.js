@@ -1,19 +1,23 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class About extends Component {
-  constructor(props) {
-    super(props);
+const About = (props) => {
+ 
     document.title = "About - NeoNews";
-  }
-  render() {
+  
+ 
     return (
-      <div className="container py-5">
-        <h1 className="section-heading text-center mb-4">About NeoNews – The Smart News App for Real-Time Updates</h1>
-        <p className="lead text-center mb-5">
-          NeoNews is a cutting-edge news app designed for today's fast-moving world. We bring you breaking news, live updates, trending stories, and expert analysis — all customized to your interests. With NeoNews, you stay informed on what matters, whenever and wherever you are.
-        </p>
+      <div className="container py-5" style={{ marginTop: "50px" }}>
+        
+        <div className="mission-box mt-5 mb-5">
+          <h1 className="text-center section-heading mb-4">About NeoNews </h1> 
+          <h5 className="text-center mb-2">The Smart News App for Real-Time Updates</h5>
+          <p className="lead text-center">
+            NeoNews is a cutting-edge news app designed for today's fast-moving world. We bring you breaking news, live updates, trending stories, and expert analysis — all customized to your interests. With NeoNews, you stay informed on what matters, whenever and wherever you are.
+          </p>
+        </div>
 
-        <h2 className="section-heading mb-4">Your Personalized News Hub</h2>
+<div className="conatainer icon-boxes">
+<h2 className="text-center mb-4 my-5">Your Personalized News Hub</h2>
         <p className="mb-4">
           In the age of information overload, NeoNews makes it simple to find the stories you care about. Our AI-powered personalization ensures you receive news that matches your preferences, from world news and politics to technology, sports, business, entertainment, and more.
         </p>
@@ -51,7 +55,7 @@ export default class About extends Component {
             <div className="icon-box text-center">
               <i className="bi bi-phone"></i>
               <h5>User-Friendly Interface</h5>
-              <p>Our clean, intuitive design ensures a smooth and enjoyable reading experience on any device.</p>
+              <p>Our intuitive design ensures a smooth reading experience on any device.</p>
             </div>
           </div>
           <div className="col-md-4">
@@ -62,19 +66,23 @@ export default class About extends Component {
             </div>
           </div>
         </div>
+</div>
+        
 
-        <div className="mission-box mt-5">
+        <div className="mission-box mt-5 mb-5" >
           <h2 className="text-center mb-3">Our Mission</h2>
           <p className="lead text-center">
             At NeoNews, our mission is to make high-quality news fast, reliable, and accessible for everyone. We combine technology with trusted journalism to help you stay ahead, make informed decisions, and stay connected to the world around you.
           </p>
         </div>
 
-        <h2 className="section-heading mt-5 mb-4">Why NeoNews Stands Out</h2>
+        <div className="conatiner icon-boxes mb-5" >
+          <h2 className="text-center mb-4">Why NeoNews Stands Out</h2>
         <p>
           Unlike traditional news apps, NeoNews is built for modern readers who value speed, accuracy, personalization, and simplicity. Our smart platform filters out the noise, so you get the most relevant news — real news, real-time.
         </p>
+        </div>
       </div>
     )
-  }
 }
+export default About;

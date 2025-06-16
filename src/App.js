@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 import News from './components/News';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './components/About';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 import LoadingBar from "react-top-loading-bar";
 
 export default class App extends Component {
@@ -41,7 +41,7 @@ export default class App extends Component {
                 <Route exact path="/technology" element={<News setProgress={this.setProgress} apiKey={this.apiKey} key="technology" pageSize={this.size} country="us" category="technology" />} />
               </Routes>
             </div>
-            {/* <Footer /> */}
+            <Footer />
        
         </Router>
       </>

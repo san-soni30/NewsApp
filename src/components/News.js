@@ -35,7 +35,6 @@ export default class News extends Component {
     this.props.setProgress(30);
     let parsedData = await data.json();
     this.props.setProgress(50);
-    console.log(data);
     this.setState({
       articles: parsedData.articles,
       totalResults: parsedData.totalResults,
@@ -45,7 +44,6 @@ export default class News extends Component {
   }
 
   async componentDidMount() {
-    console.log("CDM");
     // let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${this.state.page + 1}&pageSize=${this.props.pageSize}`;
     // this.setState({ loading: true });
     // let data = await fetch(url);
@@ -61,30 +59,28 @@ export default class News extends Component {
 
   fetchMoreData = async () => {
     this.setState({page:this.state.page + 1})
-    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
-    
+    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${this.state.page+1}&pageSize=${this.props.pageSize}`;    
     let data = await fetch(url);
     let parsedData = await data.json();
-    console.log(data);
     this.setState({
       articles: this.state.articles.concat(parsedData.articles),
       totalResults: parsedData.totalResults
     })
   };
-  handleNextClick = async () => {
-    this.setState({ page: this.state.page + 1 });
-    this.updateNews();
-  }
+  // handleNextClick = async () => {
+  //   this.setState({ page: this.state.page + 1 });
+  //   this.updateNews();
+  // }
 
-  handlePreClick = async () => {
-    this.setState({ page: this.state.page - 1 });
-    this.updateNews();
-  }
+  // handlePreClick = async () => {
+  //   this.setState({ page: this.state.page - 1 });
+  //   this.updateNews();
+  // }
   render() {
     // console.log("RENDER");
     return (
       <div className='container my-3'>
-        <h1 className="text-center my-5">International(US) News - Top Headlines of {this.props.category.charAt(0).toUpperCase() + this.props.category.slice(1)} Category </h1>
+        <h1 className="text-center topH">International(US) News - Top Headlines of {this.props.category.charAt(0).toUpperCase() + this.props.category.slice(1)} Category </h1>
         {this.state.loading && <Spinner />}
         <InfiniteScroll
         dataLength = {this.state.articles.length}

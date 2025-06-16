@@ -1,42 +1,3 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 .nav-link-custom {
   color: white;
@@ -71,10 +32,55 @@
   background-color: #a71d2a;
   color: white !important;
 }
+.icon-container {
+    position: relative;
+    display: inline-block;
+}
 
+.icon-container i {
+    transition: color 0.3s ease;
+}
+
+.icon-container:hover i {
+    color: black;
+}
+
+.tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    top:  40px;
+    bottom: -60px;
+    left: 20%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.icon-container:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.topH {
+  margin-top: 8rem !important;
+  margin-bottom: 3rem !important;
+}
 .section-heading {
   font-weight: 700;
   color: black;
+}
+.icon-boxes {
+  background: #fff;
+  border-radius: 15px;
+  padding: 25px;
+  border: 2px solid gray; /* red border */
 }
 
 .icon-box {
@@ -99,13 +105,13 @@
 }
 
 .mission-box {
-  background: linear-gradient(135deg, #ff4d4d, #e60000);
-  color: #fff;
+  background: linear-gradient(260deg, #eb9e9e, #dababa);
+  color: #212529;
   border-radius: 15px;
   padding: 50px 40px;
   margin-top: 50px;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
-  border: 2px solid black; 
+  border: 2px solid rgba(220, 53, 69, 0.5); 
   transition: 0.8s ease;
 }
 .mission-box:hover {
