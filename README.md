@@ -32,11 +32,11 @@ NeoNews is a modern, responsive, and user-friendly news reading application buil
 
 ## 📸 Screenshots
 
-![Home Page](image.png)
+![Home Page](image-1.png)
 
-![Categories Dropdown](image-1.png)
+![Categories Dropdown](image-2.png)
 
-![About ](image3.jpeg)
+![About ](image-3.jpeg)
 
 ## 🔑 Prerequisites
 
